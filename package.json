@@ -15,5 +15,22 @@
   "bugs": {
     "url": "https://github.com/gching/felix-renderer/issues"
   },
-  "homepage": "https://github.com/gching/felix-renderer"
+  "homepage": "https://github.com/gching/felix-renderer",
+
+  "devDependencies": {
+    "browserify": "^7.0.2",
+    "browserify-shim": "^3.8.1",
+    "gulp-express": "0.1.7",
+    "vinyl-source-stream": "^1.0.0",
+    "karma": "^0.12.31",
+    "karma-browserify": "^3.0.1",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^0.3.1",
+    "mocha": "*",
+    "chai": "*",
+    "chai-things": "*",
+    "gulp": "^3.8.10",
+    "validator": "^3.27.0"
+  }
 }
