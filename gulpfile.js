@@ -11,14 +11,14 @@ var server = require('gulp-express');
 */
 gulp.task('browserify', function() {
   return browserify({
-    entries: ['./lib/index.js'],
+    entries: ['./index.js'],
     debug: true
   })
   .bundle()
   //Pass desired output filename to vinyl-source-stream
   .pipe(source('build.js'))
   // Start piping stream to tasks!
-  .pipe(gulp.dest('./public/js'));
+  .pipe(gulp.dest('./public/'));
 });
 
 /*
